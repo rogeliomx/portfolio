@@ -2893,6 +2893,7 @@ input, select, textarea {
 		align-content: center;
 
 		width: 100%;
+		
 		margin: 0 0 3em 0;
 		padding: 0;
 		list-style: none;
@@ -2906,6 +2907,7 @@ input, select, textarea {
 			
 
 			flex: 1;
+			
 			padding: 1.5em;
 			margin:10px;
 			color: #ffffff;
@@ -2914,7 +2916,10 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				border: 1px solid;
+				max-width: 500px;
+				/* max-height: 350px; */
+				height: auto;
+				border: 0.5px solid;
   				border-image-slice: 1;
   				/* border-image-source: linear-gradient(to left, #05f3f3, #dd6db4); */
 				border-radius: 10px;
