@@ -2879,6 +2879,13 @@ input, select, textarea {
 
 		}
 
+		.education{
+			text-align: left;
+			margin: 0px, 50px, 0px, 50px;
+			padding: 0px,10px, 0px, 10px;
+
+		}
+
 /* Statistics */
 
 	.statistics {
@@ -2916,11 +2923,11 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				max-width: 500px;
-				/* max-height: 350px; */
-				height: auto;
+				max-width: 450px;
+				
 				border: 0.5px solid;
   				border-image-slice: 1;
+				  
   				/* border-image-source: linear-gradient(to left, #05f3f3, #dd6db4); */
 				border-radius: 10px;
 			}
@@ -2928,7 +2935,10 @@ input, select, textarea {
 			.statistics li.style1:hover {
 				
 				/* background-image: -moz-linear-gradient(226deg, rgb(148, 209, 201)-0.2%, #999faf); */
-				border-image-source: linear-gradient(to left, #05f3f3, #dd6db4);
+				/* border-image-source: linear-gradient(to left, #05f3f3, #dd6db4); */
+				/* background-color: #05f3f3; */
+				background-image: linear-gradient(142.7deg, #366363 -0.1%, #2e2d35 75%) ;
+
 				border-radius: 10px;
 				/* border: 2px solid ; */
 				animation-name: fadeInOpacity;
@@ -2987,6 +2997,8 @@ input, select, textarea {
 
 			.statistics li strong, .statistics li b {
 				font-size: 1.5em;
+				max-width: 500px
+				
 			}
 
 		}
@@ -2996,7 +3008,7 @@ input, select, textarea {
 			.statistics {
 				display: block;
 				width: 20em;
-				max-width: 100%;
+				max-width: 500px;
 				margin: 0 auto 2em auto;
 			}
 
@@ -3393,11 +3405,10 @@ input, select, textarea {
 	#main {
 		/* background-color: #c2c2c2 ; */
 		background: linear-gradient(142.27deg, rgba(175, 175, 175, 0.1) -0.2%, rgba(175, 175, 175, 0.01) 94.1%);
-		border: .5px solid #FFFFFF;
+		border: .5px solid #21d2b9;
 	
 		border-radius: 40px;
-		color: #white;
-		border: .5px solid #FFFFFF;
+		color: #FFFF;
 		border-radius: 40px;
 		
 	}	
@@ -3405,7 +3416,9 @@ input, select, textarea {
 		
 
 		#main a:hover {
-			color: #636363;
+			color: #21d2b9;
+			
+
 		}
 
 		#main strong, #main b {
