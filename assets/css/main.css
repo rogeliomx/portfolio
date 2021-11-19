@@ -250,6 +250,15 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
+	.capital{
+		font-size: 30px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: flex-start;
+	}
+
 	.tawara{
 		/* border: blue 2px solid; */
 		display: flex;
@@ -2521,7 +2530,7 @@ input, select, textarea {
 		}
 
 		dl.alt dd {
-			margin: 0 0 0.85em 5.5em;
+			margin: 0 0 0em 0em;
 		}
 
 		dl.alt:after {
