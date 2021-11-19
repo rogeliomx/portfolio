@@ -251,7 +251,7 @@ input, select, textarea {
 	}
 
 	.tawara{
-		border: blue 2px solid;
+		/* border: blue 2px solid; */
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -259,7 +259,7 @@ input, select, textarea {
 		align-content: flex-start;
 	}
 	.freq{
-		border: red 2px solid;
+		/* border: red 2px solid; */
 		max-width: 500px;
 		display: flex;
 		justify-content: space-around;
@@ -268,7 +268,7 @@ input, select, textarea {
 	}
 
 	.icon-edu{
-		border: green 2px solid;
+		/* border: green 2px solid; */
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
