@@ -2679,6 +2679,10 @@ input, select, textarea {
 	.icon-dev{
 		display: flex;
 		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 5px;
+		align-items: center;
+		align-content: flex-start;
 
 	}
 
@@ -2691,6 +2695,9 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
+.fab{
+	padding: 5px;
+}
 /* Section/Article */
 
 	section.special, article.special {
